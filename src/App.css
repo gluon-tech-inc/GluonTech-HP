@@ -95,6 +95,7 @@ body {
   color: black;
   position: relative;
   z-index: 0; /* ナビゲーションバーの下に配置 */
+  margin-top: 0;
 }
 
 .hero-text {
@@ -102,7 +103,7 @@ body {
   top: 150px;
   left: 50px;
   max-width: 600px;
-  padding-top: 79px; /* ナビゲーションバーの高さ分のスペースを確保 */
+  padding-top: 0;
 }
 
 .hero-text h1{
@@ -329,7 +330,7 @@ body {
   top: 220px;
   left: 0;
   padding: 0 20px;
-  padding-top: 79px; /* ナビゲーションバーの高さ分のスペースを確保 */
+  padding-top: 0;
 }
 
 .hero-text h1{
