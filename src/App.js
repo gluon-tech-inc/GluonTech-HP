@@ -203,7 +203,7 @@ function App() {
           <p>
             　水商売の全ての業務をDX化！業界初のデジタル管理へ。<br />
           </p>
-          <a href="https://www.gdsmith.net/saihai-lp/public/" className="product1">付け回し管理システム</a>
+          <a href="https://saihai-lp.gluon.jp" className="product1">付け回し管理システム</a>
           <p>
             　位置情報特化型SNS<br />
           </p>
