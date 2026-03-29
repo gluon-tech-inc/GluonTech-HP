@@ -1,0 +1,79 @@
+.geop-privacy-page {
+  --geop-text: #374151;
+  --geop-heading: #111827;
+  --geop-muted: #6b7280;
+  --geop-border: #e5e7eb;
+  --geop-max: 42rem;
+  --geop-pad: clamp(1rem, 4vw, 1.5rem);
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
+  padding: env(safe-area-inset-top, 0) env(safe-area-inset-right, 0)
+    env(safe-area-inset-bottom, 0) env(safe-area-inset-left, 0);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  font-size: clamp(0.875rem, 2.8vw, 0.9375rem);
+  line-height: 1.6;
+  color: var(--geop-text);
+  background: #fff;
+}
+
+.geop-privacy-page *,
+.geop-privacy-page *::before,
+.geop-privacy-page *::after {
+  box-sizing: border-box;
+}
+
+.geop-privacy-page .geop-privacy-wrap {
+  max-width: var(--geop-max);
+  margin: 0 auto;
+  padding: var(--geop-pad);
+  padding-bottom: clamp(2rem, 8vw, 3rem);
+}
+
+.geop-privacy-page h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.125rem, 4vw, 1.25rem);
+  font-weight: 700;
+  color: var(--geop-heading);
+  text-align: center;
+}
+
+.geop-privacy-page .last-updated {
+  display: block;
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--geop-muted);
+  margin-bottom: clamp(1.25rem, 4vw, 1.5rem);
+}
+
+.geop-privacy-page h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--geop-heading);
+}
+
+.geop-privacy-page section {
+  margin-bottom: clamp(1.25rem, 4vw, 1.5rem);
+}
+
+.geop-privacy-page p {
+  margin: 0 0 0.5rem;
+}
+
+.geop-privacy-page .sub {
+  font-weight: 700;
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.geop-privacy-page .closing {
+  text-align: center;
+  font-weight: 700;
+  color: var(--geop-heading);
+  margin-top: clamp(1.5rem, 5vw, 2rem);
+  padding-top: clamp(1rem, 4vw, 1.5rem);
+  border-top: 1px solid var(--geop-border);
+}
